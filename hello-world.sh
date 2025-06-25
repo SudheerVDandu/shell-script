@@ -1,3 +1,3 @@
-#!bin/bash
-touch "Hello World"
-echo "Hi World"
+#!/bin/bash
+
+echo "Hello World...!!!"
