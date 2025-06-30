@@ -18,7 +18,7 @@ if [ $? -ne 0 ]
     if [ $? -ne 0 ]
     then
         echo " Instillation mysql...Failed"
-        
+
         
         exit 1
         else
@@ -30,7 +30,22 @@ else
 fi
 
 
+dnf list installed git
 
+    if [ $? -ne 0 ]
+    then 
+    dnf install git -y
+
+    if [ $? -ne 0 ]
+    then 
+    echo " Instillation GIT Successful"
+
+    else
+    echo "Instillation GIT Failure"
+    fi
+else
+echo " GIT is already Installed"
+fi
 
 
 
