@@ -30,13 +30,6 @@ fi
 
 
 
-# if [ $? -ne 0 ]
-#     then
-#     echo "Instillation mysql...FAILED"
-#     exit 1
-#     echo "Instillation mysql...SUCCESS"
-
-# fi
 
 
 
