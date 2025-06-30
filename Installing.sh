@@ -17,7 +17,9 @@ if [ $? -ne 0 ]
     
     if [ $? -ne 0 ]
     then
-        echo " Instillation mysql...Failed
+        echo " Instillation mysql...Failed"
+        
+        
         exit 1
         else
         echo "Instillation mysql.... Success"
